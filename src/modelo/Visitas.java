@@ -12,7 +12,7 @@ public class Visitas {
     private int edad;
     private String especialidad;
     
-    //2.Getters y Setters 
+    //2.Getters y Setters s
 
     public String getUuid_paciente() {
         return uuid_paciente;
