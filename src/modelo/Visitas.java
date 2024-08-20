@@ -176,7 +176,7 @@ public class Visitas {
             ResultSet rs = deleteEstudiante.executeQuery();
  
              while (rs.next()) {
-                //Llenamos el modelo por cada vez que recorremos el resultSet
+                //Llenamos el modelo por cada vez que recorremos el resultSet. ldksjv
                 modelo.addRow(new Object[]{rs.getString("UUID_Paciente"), 
                     rs.getString("Nombre"), 
                     rs.getInt("Edad"), 
